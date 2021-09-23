@@ -91,7 +91,7 @@
             "title": "Data as a Geopackage"
         },
         {
-            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.gpkg",
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.geojsonl.json",
             "rel": "enclosure",
             "type": "application/geo+json-seq",
             "length": 2749205839,
