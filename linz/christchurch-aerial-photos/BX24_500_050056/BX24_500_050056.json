@@ -1,0 +1,191 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "BX24_500_050056",
+  "properties": {
+    "proj:epsg": 2193,
+    "proj:shape": [
+      4800,
+      3200
+    ],
+    "proj:transform": [
+      0.075,
+      0.0,
+      1577200.0,
+      0.0,
+      -0.075,
+      5172360.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2021-10-13T03:25:00.185535Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          172.71748825213498,
+          -43.601386225131556
+        ],
+        [
+          172.71748825213498,
+          -43.60463498527824
+        ],
+        [
+          172.7204770332424,
+          -43.60463498527824
+        ],
+        [
+          172.7204770332424,
+          -43.601386225131556
+        ],
+        [
+          172.71748825213498,
+          -43.601386225131556
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/BX24_500_050056.tif",
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red"
+        },
+        {
+          "name": "Green",
+          "common_name": "green"
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "nodata": "inf",
+          "statistics": {
+            "mean": 153.28775565062224,
+            "minimum": 4,
+            "maximum": 251,
+            "stddev": 65.13772193369616,
+            "valid_percent": 100.0
+          },
+          "histogram": {
+            "count": 11,
+            "min": 4.0,
+            "max": 251.0,
+            "buckets": [
+              15603,
+              71653,
+              50210,
+              49308,
+              36719,
+              52133,
+              73647,
+              162212,
+              130201,
+              57706
+            ]
+          }
+        },
+        {
+          "data_type": "uint8",
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "nodata": "inf",
+          "statistics": {
+            "mean": 152.99132389275258,
+            "minimum": 4,
+            "maximum": 251,
+            "stddev": 60.102676325338386,
+            "valid_percent": 100.0
+          },
+          "histogram": {
+            "count": 11,
+            "min": 4.0,
+            "max": 251.0,
+            "buckets": [
+              8624,
+              68883,
+              42097,
+              32154,
+              49614,
+              85986,
+              90357,
+              176229,
+              97551,
+              47897
+            ]
+          }
+        },
+        {
+          "data_type": "uint8",
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "nodata": "inf",
+          "statistics": {
+            "mean": 153.65618136896046,
+            "minimum": 4,
+            "maximum": 251,
+            "stddev": 59.230836485339076,
+            "valid_percent": 100.0
+          },
+          "histogram": {
+            "count": 11,
+            "min": 4.0,
+            "max": 251.0,
+            "buckets": [
+              3822,
+              55578,
+              53858,
+              44808,
+              55407,
+              84926,
+              83133,
+              164149,
+              101892,
+              51819
+            ]
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    172.71748825213498,
+    -43.60463498527824,
+    172.7204770332424,
+    -43.601386225131556
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.0.0/schema.json"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "linz-example",
+  "title": "Example datasets from LINZ - Land Information New Zealand",
+  "description": "This collection contains several sub-collections of open data downloaded from https://data.linz.govt.nz/ in order to demonstrate how OGC static constructs and STAC can work together to fully describe a set of data stored in the cloud.",
+  "extent":
+      {
+          "spatial":
+          {
+              "bbox":
+              [
+                  [
+                      165.553371412,
+                      -52.821368717,
+                      -175.541422,
+                      -29.030330272
+                  ]
+              ]
+          }
+      },
+  "itemType": "collection",
+  "keywords": [ "New Zealand"],
+  "language": "en-NZ",
+  "publisher": {
+    "organizationName": "LINZ - Land Information New Zealand",
+    "contactInfo": {
+      "onlineResource": {
+        "href": "https://data.linz.govt.nz/"
+      }
+    },
+    "role": {
+      "name": "producer"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
+      "rel": "license",
+      "type": "text/html",
+      "title": "license"
+    },
+    {
+      "rel": "item",
+      "href": "buildings/collection.json"
+    },
+    {
+      "rel": "item",
+      "href": "christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016/collection.json"
+    }
+  ]
+}
