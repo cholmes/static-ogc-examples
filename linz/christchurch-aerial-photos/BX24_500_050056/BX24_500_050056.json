@@ -63,6 +63,8 @@
   "assets": {
     "asset": {
       "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/BX24_500_050056.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Visual Cloud-Optimized GeoTIFF",
       "eo:bands": [
         {
           "name": "Red",
