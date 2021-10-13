@@ -1,0 +1,52 @@
+{
+    "id": "linz-example",
+    "title": "Example datasets from LINZ - Land Information New Zealand as full STAC",
+    "type": "Catalog",
+    "stac_version": "1.0.0",
+    "description": "This collection is an alternate version of the static OGC examples that fully implements STAC so that the results can be displayed in STAC Browser. This is likely not the long term route, instead a more general 'OGC Crawlable Data Browser' should likely be made, that can understand non-STAC constructs. The data itself here contains several sub-collections of open data downloaded from https://data.linz.govt.nz/ in order to demonstrate how OGC static constructs and STAC can work together to fully describe a set of data stored in the cloud.",
+    "extent":
+    {
+        "spatial":
+        {
+            "bbox":
+            [
+                [
+                    165.553371412,
+                    -52.821368717,
+                    175.541422,
+                    -29.030330272
+                ]
+            ]
+        },
+        "temporal":
+        {
+            "interval":
+            [
+                [
+                    "2015-01-01T00:00:00Z",
+                    "2020-12-31T00:00:00Z"
+                ]
+            ]
+        }
+    },
+    "license": "CC-BY-4.0",
+    "links":
+    [
+        {
+            "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
+            "rel": "license",
+            "type": "text/html",
+            "title": "license"
+        },
+        {
+            "rel": "child",
+            "title": "Christchurch 0.075m Urban Aerial Photos (2015-2016)",
+            "href": "../christchurch-aerial-photos/collection.json"
+        },
+        {
+            "rel": "child",
+            "title": "New Zealand Building Outlines",
+            "href": "./nz-building-collection.json"
+        }
+    ]
+}
