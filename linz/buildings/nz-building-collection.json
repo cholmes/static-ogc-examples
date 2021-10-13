@@ -50,7 +50,7 @@
             "title": "license"
         },
         {
-            "href": "nz-buildings-record.json",
+            "href": "nz-building-record.json",
             "rel": "alternate",
             "type": "application/geo+json",
             "title": "OGC Record JSON of this data"

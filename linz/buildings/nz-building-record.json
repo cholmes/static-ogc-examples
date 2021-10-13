@@ -77,7 +77,7 @@
             "title": "license"
         },
         {
-            "href": "buildings-collection.json",
+            "href": "building-collection.json",
             "rel": "alternate",
             "type": "application/json",
             "title": "OGC Collection JSON of this data"
