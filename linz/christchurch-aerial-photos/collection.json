@@ -1,105 +1,136 @@
 {
-  "type": "Collection",
-  "id": "3454",
-  "stac_version": "1.0.0",
-  "title": "Christchurch 0.075m Urban Aerial Photos (2015-2016)",
-  "description": "Orthophotography in the Christchurch City Council area taken in the flying season (summer period) 2015-16. Coverage is of the urbans areas within Christchurch City and Banks Peninsula. Imagery was captured for the \u2018Christchurch City Council' by AAM NZ Limited, 6 Ossian St, NAPIER, New Zealand.",
-  "links": [
+    "type": "Collection",
+    "id": "3454",
+    "stac_version": "1.0.0",
+    "title": "Christchurch 0.075m Urban Aerial Photos (2015-2016)",
+    "description": "Orthophotography in the Christchurch City Council area taken in the flying season (summer period) 2015-16. Coverage is of the urbans areas within Christchurch City and Banks Peninsula. Imagery was captured for the ‘Christchurch City Council' by AAM NZ Limited, 6 Ossian St, NAPIER, New Zealand.",
+    "links":
+    [
+        {
+            "rel": "license",
+            "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
+            "type": "text/html",
+            "title": "license"
+        },
+        {
+            "rel": "enclosure",
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.gpkg",
+            "type": "application/geopackage+sqlite3",
+            "title": "Index Tiles as a Geopackage"
+        },
+        {
+            "rel": "enclosure",
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.geojson",
+            "type": "application/geo+json",
+            "title": "Index Tiles as GeoJSON"
+        },
+        {
+            "rel": "describedby",
+            "href": "./christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.xml",
+            "type": "text/xml",
+            "title": "ISO 19115/19139 Metadata"
+        },
+        {
+            "rel": "root",
+            "href": "./collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./BX24_500_050056/BX24_500_050056.json",
+            "title": "Aerial Photo Tile BX24_500_050056"
+        },
+        {
+            "rel": "http://www.opengis.net/def/rel/ogc/1.0/tileset",
+            "href": "./tiles.json",
+            "type": "application/json",
+            "title": "OGC API - Tiles JSON of the full collection of aerial images "
+        }
+    ],
+    "assets":
     {
-      "rel": "license",
-      "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
-      "type": "text/html",
-      "title": "license"
+        "tile-grid":
+        {
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.geojson",
+            "type": "application/geo+json",
+            "title": "Index Tiles Grid of Collection, as GeoPackage"
+        },
+        "tilejson":
+        {
+            "title": "Mosaic TileJSON with default rendering",
+            "href": "./tilejson.json",
+            "type": "application/json",
+            "roles":
+            [
+                "tiles"
+            ]
+        }
     },
+    "stac_extensions":
+    [],
+    "itemType": "feature",
+    "keywords":
+    [
+        "New Zealand",
+        "aerial photos",
+        "Christchurch"
+    ],
+    "language": "en-NZ",
+    "publisher":
     {
-      "rel": "enclosure",
-      "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.gpkg",
-      "type": "application/geopackage+sqlite3",
-      "title": "Data as a Geopackage"
+        "organizationName": "LINZ - Land Information New Zealand",
+        "contactInfo":
+        {
+            "onlineResource":
+            {
+                "href": "https://data.linz.govt.nz/"
+            },
+            "email": "customersupport@linz.govt.nz"
+        },
+        "role":
+        {
+            "name": "producer"
+        }
     },
+    "providers":
+    [
+        {
+            "name": "LINZ - Land Information New Zealand",
+            "description": "Toitū Te Whenua Land Information New Zealand (LINZ) is the public service department of New Zealand charged with geographical information and surveying functions as well as handling land titles, and managing Crown land and property.",
+            "roles":
+            [
+                "producer",
+                "processor",
+                "licensor",
+                "host"
+            ],
+            "url": "https://data.linz.govt.nz/"
+        }
+    ],
+    "extent":
     {
-      "rel": "enclosure",
-      "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.geojson",
-      "type": "application/geo+json",
-      "title": "Data as GeoJSON"
+        "spatial":
+        {
+            "bbox":
+            [
+                [
+                    172.391752627,
+                    -43.835082682,
+                    173.101344286,
+                    -43.3873367972
+                ]
+            ]
+        },
+        "temporal":
+        {
+            "interval":
+            [
+                [
+                    "2015-01-01T00:00:00Z",
+                    "2016-12-31T00:00:00Z"
+                ]
+            ]
+        }
     },
-    {
-      "rel": "describedby",
-      "href": "./christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.xml",
-      "type": "text/xml",
-      "title": "ISO 19115/19139 Metadata"
-    },
-    {
-      "rel": "root",
-      "href": "./collection.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./BX24_500_050056/BX24_500_050056.json",
-      "title": "Aerial Photo Tile BX24_500_050056"
-    }
-  ],
-  "assets": {
-    "tile-grid": {
-      "href": "https://storage.googleapis.com/open-geodata/linz-examples/christchurch-aerial-photos/christchurch-0075m-urban-aerial-photos-index-tiles-2015-2016.geojson",
-      "type": "application/geo+json",
-      "title": "Tile Grid of Collection, as GeoPackage"
-    }
-  },
-  "stac_extensions": [],
-  "title": "Christchurch 0.075m Urban Aerial Photos (2015-2016)",
-  "itemType": "feature",
-  "keywords": [
-    "New Zealand",
-    "aerial photos",
-    "Christchurch"
-  ],
-  "language": "en-NZ",
-  "publisher": {
-    "organizationName": "LINZ - Land Information New Zealand",
-    "contactInfo": {
-      "onlineResource": {
-        "href": "https://data.linz.govt.nz/"
-      },
-      "email": "customersupport@linz.govt.nz"
-    },
-    "role": {
-      "name": "producer"
-    }
-  },
-  "providers": [
-    {
-      "name": "LINZ - Land Information New Zealand",
-      "description": "Toit\u016b Te Whenua Land Information New Zealand (LINZ) is the public service department of New Zealand charged with geographical information and surveying functions as well as handling land titles, and managing Crown land and property.",
-      "roles": [
-        "producer",
-        "processor",
-        "licensor",
-        "host"
-      ],
-      "url": "https://data.linz.govt.nz/"
-    }
-  ],
-  "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          172.391752627,
-          -43.835082682,
-          173.101344286,
-          -43.3873367972
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2015-01-01T00:00:00Z",
-          "2016-12-31T00:00:00Z"
-        ]
-      ]
-    }
-  },
-  "license": "CC-BY-4.0"
+    "license": "CC-BY-4.0"
 }

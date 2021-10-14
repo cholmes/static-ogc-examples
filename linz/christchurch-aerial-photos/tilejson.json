@@ -1,0 +1,25 @@
+{
+    "tilejson": "2.2.0",
+    "name": "Christchurch 0.075m Urban Aerial Photos (2015-2016) Tiles",
+    "version": "1.0.0",
+    "scheme": "xyz",
+    "tiles":
+    [
+        "http://tiles-a.data-cdn.linz.govt.nz/services;key=fabe81745f5a4829933c7809fee2758b/tiles/v4/layer=53451/EPSG:3857/{z}/{x}/{y}.png"
+    ],
+    "minzoom": 4,
+    "maxzoom": 21,
+    "bounds":
+    [
+        172.391752627,
+        -43.835082682,
+        173.101344286,
+        -43.3873367972
+    ],
+    "center":
+    [
+        172.6365852355957,
+        -43.53062917044242,
+        11
+    ]
+}
