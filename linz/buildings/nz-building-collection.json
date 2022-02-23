@@ -63,19 +63,13 @@
             "title": "Data as a FlatGeobuf"
         },
         {
-            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.gpkg",
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.mbtiles",
             "rel": "enclosure",
-            "type": "application/geopackage+sqlite3",
-            "length": 1449656320,
-            "title": "Data as a Geopackage"
+            "type": "application/vnd.sqlite3",
+            "length": 4449656320,
+            "title": "Data as a Mapbox Vector Tiles in MBTiles (SQL Lite)"
         },
-        {
-            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.geojsonl.json",
-            "rel": "enclosure",
-            "type": "application/geo+json-seq",
-            "length": 2749205839,
-            "title": "Data as a Newline Delimited GeoJSON"
-        },
+
         {
             "href": "./nz-building-outlines.xml",
             "rel": "describedby",
