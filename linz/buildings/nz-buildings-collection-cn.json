@@ -44,12 +44,6 @@
     "links":
     [
         {
-            "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
-            "rel": "license",
-            "type": "text/html",
-            "title": "license"
-        },
-        {
             "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-building-outlines.fgb",
             "rel": "enclosure",
             "type": "application/vnd.flatgeobuf",
@@ -57,11 +51,18 @@
             "title": "Data as a FlatGeobuf"
         },
         {
-            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-buildings.pmtiles"
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-buildings.pmtiles",
             "rel": "enclosure",
             "type": "application/vnd.pmtiles"
-            "length": 892391439
-        }
+            "length": 892391439,
+            "title": "Data as PMTiles"
+        },
+        {
+            "href": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-linz-data",
+            "rel": "license",
+            "type": "text/html",
+            "title": "license"
+        },
         {
             "href": "./nz-building-outlines.xml",
             "rel": "describedby",
