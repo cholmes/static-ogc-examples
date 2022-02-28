@@ -53,7 +53,7 @@
         {
             "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-buildings.pmtiles",
             "rel": "enclosure",
-            "type": "application/vnd.pmtiles"
+            "type": "application/vnd.pmtiles",
             "length": 892391439,
             "title": "Data as PMTiles"
         },
