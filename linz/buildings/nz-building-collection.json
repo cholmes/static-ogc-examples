@@ -77,6 +77,12 @@
             "title": "Data as a Newline Delimited GeoJSON"
         },
         {
+            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-buildings.pmtiles"
+            "rel": "enclosure",
+            "type": "application/vnd.pmtiles"
+            "length": 892391439
+        }
+        {
             "href": "./nz-building-outlines.xml",
             "rel": "describedby",
             "type": "text/xml",
