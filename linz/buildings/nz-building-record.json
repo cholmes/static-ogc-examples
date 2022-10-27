@@ -104,6 +104,13 @@
             "title": "Data as a Newline Delimited GeoJSON"
         },
         {
+            "href": "https://pub-0589652e269946819d16850f9e0613ae.r2.dev/nz-buildings-v3.pmtiles",
+            "rel": "enclosure",
+            "type": "application/vnd.pmtiles",
+            "length": 288867769,
+            "title": "Data as PMTiles"
+        },
+        {
             "href": "./nz-building-outlines.xml",
             "rel": "describedby",
             "type": "text/xml",
