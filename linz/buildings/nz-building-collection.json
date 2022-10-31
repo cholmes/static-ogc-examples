@@ -77,7 +77,7 @@
             "title": "Data as a Newline Delimited GeoJSON"
         },
         {
-            "href": "https://pub-0589652e269946819d16850f9e0613ae.r2.dev/nz-buildings-v3.pmtiles",
+            "href": "https://pub-9288c68512ed46eca46ddcade307709b.r2.dev/protomaps-sample-datasets/nz-buildings-v3.pmtiles",
             "rel": "enclosure",
             "type": "application/vnd.pmtiles",
             "length": 288867769,

@@ -51,7 +51,7 @@
             "title": "Data as a FlatGeobuf"
         },
         {
-            "href": "https://storage.googleapis.com/open-geodata/linz-examples/nz-buildings.pmtiles",
+            "href": "https://pub-9288c68512ed46eca46ddcade307709b.r2.dev/protomaps-sample-datasets/nz-buildings-v3.pmtiles",
             "rel": "enclosure",
             "type": "application/vnd.pmtiles",
             "length": 892391439,
